@@ -5,45 +5,45 @@ public class Main {
         //Задача 1
         //С помощью цикла for выведите в консоль все целые числа от 1 до 10.
         System.out.println("Задача 1");
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= 10; i++) {
             System.out.println("i = " + i);
         }
         //Задача 2
         //С помощью цикла for выведите в консоль все целые числа от 10 до 1.
         System.out.println("Задача 2");
-        for (int i = 10; i > 0; i--){
+        for (int i = 10; i > 0; i--) {
             System.out.println("i = " + i);
         }
         //Задача 3
         //Выведите в консоль все четные числа от 0 до 17.
         System.out.println("Задача 3");
-        for (int i = 0; i <= 17; i += 2){
+        for (int i = 0; i <= 17; i += 2) {
             System.out.println("i = " + i);
         }
         //Задача 4
         //Выведите в консоль все числа от 10 до −10 от бо́льшего числа к меньшему.
         System.out.println("Задача 4");
-        for (int i = 10; i >= -10; i--){
+        for (int i = 10; i >= -10; i--) {
             System.out.println("i = " + i);
         }
         //Задача 5
         //Напишите программу, которая выводит в консоль все високосные года, начиная с 1904 года до 2096. В консоль результат должен выводиться в формате: «… год является високосным».
         System.out.println("Задача 5");
-        for (int i = 1904; i <= 2096; i += 4){
+        for (int i = 1904; i <= 2096; i += 4) {
             System.out.println(i + " год является високосным");
         }
         //Задача 6
         //Напишите программу, которая выводит в консоль последовательность чисел:
         //7 14 21 28 35 42 49 56 63 70 77 84 91 98
         System.out.println("Задача 6");
-        for (int i = 7; i <= 98; i += 7){
+        for (int i = 7; i <= 98; i += 7) {
             System.out.println(i);
         }
         //Задача 7
         //Напишите программу, которая выводит в консоль последовательность чисел:
         //1 2 4 8 16 32 64 128 256 512
         System.out.println("Задача 7");
-        for (int i = 1; i <= 512; i *= 2){
+        for (int i = 1; i <= 512; i *= 2) {
             System.out.println(i);
         }
         //Задача 8
@@ -52,7 +52,7 @@ public class Main {
         System.out.println("Задача 8");
         int money = 29000;
         int total = 0;
-        for (int i = 1; i <= 12; i++){
+        for (int i = 1; i <= 12; i++) {
             total += money;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
@@ -61,15 +61,15 @@ public class Main {
         System.out.println("Задача 9");
         money = 29000;
         total = 0;
-        for (int i = 1; i <= 12; i++){
+        for (int i = 1; i <= 12; i++) {
             total += money;
-            total += total/100;
+            total += total / 100;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
         //Задача 10
         //Напишите программу, которая выводит в консоль таблицу умножения на 2:
         System.out.println("Задача 10");
-        for (int i = 1; i <= 10; i++){
+        for (int i = 1; i <= 10; i++) {
             System.out.println("2*" + i + "=" + i * 2);
         }
     }
